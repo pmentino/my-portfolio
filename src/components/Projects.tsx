@@ -3,9 +3,9 @@ import "./Projects.css"; // Import the CSS file for hover effects
 
 const Projects: React.FC = () => {
   return (
-    <div className="container mt-5">
-      <h2 className="text-center mb-4">My Projects</h2>
-      <div className="row g-4">
+    <div className="container d-flex flex-column align-items-center justify-content-center text-center min-vh-100">
+      <h2 className="mb-4 fw-bold">My Projects</h2>
+      <div className="row g-4 justify-content-center w-100">
         {/* Project 1 */}
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div className="card project-card">
@@ -15,8 +15,8 @@ const Projects: React.FC = () => {
               className="card-img-top project-img"
             />
             <div className="card-body">
-              <h5 className="card-title">Project 1: My Portfolio Website</h5>
-              <p className="card-text">This is a description of my project.</p>
+              <h5 className="card-title">My Portfolio Website</h5>
+              <p className="card-text">A personal website showcasing my skills and projects.</p>
             </div>
           </div>
         </div>
@@ -30,10 +30,8 @@ const Projects: React.FC = () => {
               className="card-img-top project-img"
             />
             <div className="card-body">
-              <h5 className="card-title">Project 2: E-Commerce Website</h5>
-              <p className="card-text">
-                An online store built with React, TypeScript, and Bootstrap.
-              </p>
+              <h5 className="card-title">E-Commerce Website</h5>
+              <p className="card-text">An online store built with React, TypeScript, and Bootstrap.</p>
             </div>
           </div>
         </div>
@@ -47,10 +45,8 @@ const Projects: React.FC = () => {
               className="card-img-top project-img"
             />
             <div className="card-body">
-              <h5 className="card-title">Project 3: Task Manager</h5>
-              <p className="card-text">
-                A simple task manager with CRUD operations.
-              </p>
+              <h5 className="card-title">Task Manager</h5>
+              <p className="card-text">A simple task manager with CRUD operations.</p>
             </div>
           </div>
         </div>
