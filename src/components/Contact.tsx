@@ -1,13 +1,28 @@
 import React from "react";
-import "./Contact.css"
+import "./Contact.css";
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact: React.FC = () => {
   return (
-    <div className="d-flex align-items-center justify-content-center min-vh-100 bg-light">
+    <div
+      style={{
+        width: "100vw",
+        height: "50vh",
+        paddingTop: "20px", // Offset for fixed navbar
+        boxSizing: "border-box",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#f8f9fa",
+      }}
+    >
       <div
         className="text-center shadow p-4 rounded"
-        style={{ maxWidth: "450px", width: "100%", backgroundColor: "#fff" }}
+        style={{
+          maxWidth: "450px",
+          width: "100%",
+          backgroundColor: "#fff",
+        }}
       >
         <h2 className="mb-4 fw-bold">Contact Me</h2>
         <ul className="list-unstyled">

@@ -6,19 +6,18 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import "animate.css";
+
 const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
-      <div className="pt-5" style={{ paddingTop: "80px" }}>
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
+      <div style={{ paddingTop: "20px" }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
     </Router>
   );

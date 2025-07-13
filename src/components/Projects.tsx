@@ -3,7 +3,7 @@ import "./Projects.css"; // Import the CSS file for hover effects
 
 const Projects: React.FC = () => {
   return (
-    <div className="container d-flex flex-column align-items-center justify-content-center text-center min-vh-100">
+    <div className="container d-flex flex-column align-items-center justify-content-center text-center min-vh-50">
       <h2 className="mb-4 fw-bold">My Projects</h2>
       <div className="row g-4 justify-content-center w-100">
         {/* Project 1 */}
